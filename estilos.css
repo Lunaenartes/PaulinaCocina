@@ -1,0 +1,48 @@
+html {
+    background-color: #FFF7E8;
+}
+/*esto es un comentario en .css*/
+
+.contenedor { 
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem; /* Un poco de espacio a los costados */
+}
+
+.vector{ /*carga imagen en el fondo y la acomoda donde queremos*/
+background-image: url('/img/vector.png');
+background-size: 100% auto;
+background-position: center top;
+background-repeat: no-repeat;
+height: 100vh;
+position: relative;
+}
+
+.portada{ /*bajo el contenedor del libro*/
+margin-top: 350px;
+padding-left: 200px;
+color: #154932;
+}
+
+#logo{/*reubico logo*/
+    padding-left: 70px;
+    margin-top: 70px;    
+}
+
+#libro { /*reacomodo portada del libro*/
+    width: 750px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 200px;
+}
+
+/*.bullets{
+
+}*/
+
+* {/*se usa para que sea universal en toda la pagina*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }/*esto hace que se eliminen margenes y rellenos blancos no deseados*/
